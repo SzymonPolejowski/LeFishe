@@ -2,6 +2,7 @@ package net.lefishe.main.mixin;
 
 import net.lefishe.main.leFisheMain;
 import net.minecraft.client.gui.screen.TitleScreen;
+import net.minecraft.item.FoodComponents;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -14,3 +15,4 @@ public class ExampleMixin {
 		leFisheMain.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }
+
