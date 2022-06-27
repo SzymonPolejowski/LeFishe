@@ -2,9 +2,8 @@ package net.lefishe.main;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.lefishe.main.items.LeFisheAuChocolat;
+import net.lefishe.items.LeFisheAuChocolat;
 import net.minecraft.item.FoodComponent;
-import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
