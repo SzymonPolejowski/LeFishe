@@ -1,7 +1,6 @@
 package net.lefishe.items;
 
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
@@ -11,8 +10,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class LeFisheAuChocolat extends Item {
-	public LeFisheAuChocolat(Settings settings) {
+public class LeFisheAuChocolatItem extends Item {
+	public LeFisheAuChocolatItem(Settings settings) {
 		super(settings);
 	}
 	
