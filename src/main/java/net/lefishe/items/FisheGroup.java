@@ -11,6 +11,7 @@ public abstract class FisheGroup {
 			.icon(() -> new ItemStack(FisheItems.FISHE_CHOCO))
 			.appendItems(stacks -> {
 				stacks.add(new ItemStack(FisheItems.FISHE_CHOCO));
+				stacks.add(new ItemStack(FisheItems.FISHE_PICKLE));
 			})
 			.build();
 }
