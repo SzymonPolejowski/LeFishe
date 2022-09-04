@@ -12,6 +12,7 @@ public abstract class FisheGroup {
 			.appendItems(stacks -> {
 				stacks.add(new ItemStack(FisheItems.FISHE_CHOCO));
 				stacks.add(new ItemStack(FisheItems.FISHE_PICKLE));
+				stacks.add(new ItemStack(FisheItems.FISHE_PRISMATICROD));
 			})
 			.build();
 }

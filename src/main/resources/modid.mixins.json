@@ -4,6 +4,7 @@
   "package": "net.lefishe.main.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "FishingRodMixin"
   ],
   "client": [
     "ExampleMixin"
