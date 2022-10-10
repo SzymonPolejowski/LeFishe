@@ -20,6 +20,7 @@ public class PrismaticFishingRodItem extends FishingRodItem {
 		tooltip.add(Text.translatable("lefishe.prismatic_rod"));
 	}
 	
+	
 	@Override
 	public int getEnchantability() {
 		return 1;
