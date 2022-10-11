@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(FishingBobberEntity.class)
 public class PrismaticFishingRodFixer {
 	@Inject(at = @At("HEAD"), method = "removeIfInvalid", cancellable = true)
-	private void stopBobber(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
+	private void fixBobber(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
 		ItemStack itemStack = player.getMainHandStack();
 		ItemStack itemStack2 = player.getOffHandStack();
 		if (itemStack.getItem() == FisheItems.FISHE_PRISMATICROD || itemStack2.getItem() == FisheItems.FISHE_PRISMATICROD){

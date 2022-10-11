@@ -2,6 +2,7 @@ package net.lefishe.main;
 
 import net.fabricmc.api.ModInitializer;
 import net.lefishe.items.FisheItems;
+import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
