@@ -19,10 +19,4 @@ public class PrismaticFishingRodItem extends FishingRodItem {
 	public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
 		tooltip.add(Text.translatable("lefishe.prismatic_rod"));
 	}
-	
-	
-	@Override
-	public int getEnchantability() {
-		return 1;
-	}
 }

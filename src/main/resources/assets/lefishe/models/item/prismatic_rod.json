@@ -2,5 +2,18 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "lefishe:item/prismatic_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "lefishe:item/prismatic_rod_cast"
+    }
+  ],
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [ 0, 180, 25 ]
+    }
   }
 }
