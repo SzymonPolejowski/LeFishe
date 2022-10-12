@@ -2,11 +2,11 @@ package net.lefishe.main.mixin;
 
 import net.lefishe.items.FisheItems;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.projectile.FishingBobberEntity;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import net.minecraft.entity.projectile.FishingBobberEntity;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(FishingBobberEntity.class)

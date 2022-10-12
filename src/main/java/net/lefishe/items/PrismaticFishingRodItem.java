@@ -1,6 +1,5 @@
 package net.lefishe.items;
 
-import net.minecraft.client.item.ModelPredicateProviderRegistry;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.FishingRodItem;
 import net.minecraft.item.ItemStack;
