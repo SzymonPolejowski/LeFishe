@@ -13,7 +13,7 @@
   ],
   "display": {
     "firstperson_righthand": {
-      "rotation": [ 0, 180, 25 ]
+      "rotation": [ 25, 90, 0]
     }
   }
 }
