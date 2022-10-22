@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.lefishe.main.leFisheMain"
+      "lefishe.main.leFisheMain"
     ]
   },
   "mixins": [

@@ -1,4 +1,4 @@
-package net.lefishe.items;
+package lefishe.main.items;
 
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;

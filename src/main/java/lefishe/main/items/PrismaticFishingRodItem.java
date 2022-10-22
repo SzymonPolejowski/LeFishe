@@ -1,4 +1,4 @@
-package net.lefishe.items;
+package lefishe.main.items;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.FishingRodItem;

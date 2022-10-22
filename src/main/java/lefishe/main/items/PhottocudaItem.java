@@ -1,7 +1,6 @@
-package net.lefishe.items;
+package lefishe.main.items;
 
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;

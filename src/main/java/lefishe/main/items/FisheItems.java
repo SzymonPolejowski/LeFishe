@@ -1,4 +1,4 @@
-package net.lefishe.items;
+package lefishe.main.items;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.item.ModelPredicateProviderRegistry;

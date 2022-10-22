@@ -1,7 +1,7 @@
-package net.lefishe.main;
+package lefishe.main;
 
 import net.fabricmc.api.ModInitializer;
-import net.lefishe.items.FisheItems;
+import lefishe.main.items.FisheItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

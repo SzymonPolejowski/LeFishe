@@ -1,6 +1,6 @@
-package net.lefishe.main.mixin;
+package lefishe.main.mixin;
 
-import net.lefishe.items.FisheItems;
+import lefishe.main.items.FisheItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.FishingBobberEntity;
 import net.minecraft.item.ItemStack;
