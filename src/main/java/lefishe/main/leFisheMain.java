@@ -13,6 +13,7 @@ public class leFisheMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Initialising mod.");
 		FisheItems.registerItemsAndModelPredicates();
 		FisheStatusEffects.initializeEffects();
 	}
