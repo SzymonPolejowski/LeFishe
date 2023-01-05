@@ -10,12 +10,12 @@ public abstract class FisheGroup {
 
 	public static final ItemGroup FISHE_GROUP = FabricItemGroup.builder(new Identifier("lefishe", "general"))
 			.displayName(Text.literal("LeFishe"))
-			.icon(() -> new ItemStack(FisheItems.FISHE_CHOCO))
+			.icon(() -> new ItemStack(FisheItems.FISHE_LEFISHEAUCHOCOLAT))
 			.entries((enabledFeatures, entries, operatorEnabled) -> {
-				entries.add(new ItemStack(FisheItems.FISHE_CHOCO));
-				entries.add(new ItemStack(FisheItems.FISHE_PICKLE));
+				entries.add(new ItemStack(FisheItems.FISHE_LEFISHEAUCHOCOLAT));
+				entries.add(new ItemStack(FisheItems.FISHE_PICKLEFISH));
 				entries.add(new ItemStack(FisheItems.FISHE_PRISMATICROD));
-				entries.add(new ItemStack(FisheItems.FISHE_PHOTTOCUDA));
+				entries.add(new ItemStack(FisheItems.FISHE_PHOTTOCUDAFISH));
 			})
 			.build();
 }
