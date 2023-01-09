@@ -12,7 +12,7 @@ public class EnlightenedStatusEffect extends StatusEffect {
 	}
 	@Override
 	public void applyUpdateEffect(LivingEntity entity, int amplifier){
-		entity.getWorld().setBlockState(entity.getBlockPos(), LightBlock.);
+		//entity.getWorld().setBlockState(entity.getBlockPos(), LightBlock.);
 	}
 	
 }
