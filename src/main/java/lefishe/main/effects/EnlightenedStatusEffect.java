@@ -7,7 +7,7 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 
-
+//TODO: handle amplifiers
 
 public class EnlightenedStatusEffect extends StatusEffect {
 	private LightBlockQueue lightBlocks;
