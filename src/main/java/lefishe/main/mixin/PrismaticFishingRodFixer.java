@@ -10,7 +10,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(FishingBobberEntity.class)
-public class PrismaticFishingRodFixer {
+public abstract class PrismaticFishingRodFixer {
 	@Inject(at = @At("HEAD"), method = "removeIfInvalid", cancellable = true)
 	private void fixBobber(PlayerEntity player, CallbackInfoReturnable<Boolean> cir) {
 		ItemStack itemStack = player.getMainHandStack();
