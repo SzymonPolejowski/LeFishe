@@ -17,6 +17,7 @@ public class EnlightenedStatusEffect extends StatusEffect {
 
 	@Override
 	public boolean canApplyUpdateEffect(int duration, int amplifier) {
+		//if effect is about to end, delete all light blocks
 		if (duration < 3){
 			lightBlocks.deleteAll();
 			return false;

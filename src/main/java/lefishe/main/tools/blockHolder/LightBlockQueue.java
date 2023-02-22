@@ -7,6 +7,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
+//This class manages light blocks placed by enlightened status effect: hold them, delete them on demand
 public class LightBlockQueue extends BlockQueue {
 	public LightBlockQueue(World world) {
 		super(world);
