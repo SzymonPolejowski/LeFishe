@@ -1,28 +1,28 @@
 package lefishe.main.effects;
 
+import lefishe.main.tools.blockHolder.LightBlockQueue;
 import net.minecraft.block.*;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+
 
 public class EnlightenedStatusEffect extends StatusEffect {
-	private Queue<BlockState> lightBlocks = new PriorityQueue();
+	private LightBlockQueue lightBlocks;
 	public EnlightenedStatusEffect() {
 		super(StatusEffectCategory.BENEFICIAL, 0xfaf58e);
 	}
 
 	@Override
 	public boolean canApplyUpdateEffect(int duration, int amplifier) {
-		//update every 3 ticks
-		if (duration % 3 == 0){
-			return true;
-		} else {
+		if (duration < 3){
+			lightBlocks.deleteAll();
 			return false;
 		}
+		//update every 3 ticks
+		return duration % 3 == 0;
 	}
 	@Override
 	public void applyUpdateEffect(LivingEntity entity, int amplifier){
@@ -36,9 +36,13 @@ public class EnlightenedStatusEffect extends StatusEffect {
 		}
 		//place lightning block
 		entity.getWorld().setBlockState(entity.getBlockPos(), Blocks.LIGHT.getDefaultState());
-		//delete old light blocks
-		lightBlocks.add(entity.getWorld().getBlockState(entity.getBlockPos()));
-
+		//make sure if lightBlocks exist
+		if (lightBlocks == null){
+			lightBlocks = new LightBlockQueue(entity.getWorld());
+		}
+		//add lightBlock to queue
+		lightBlocks.addBlock(entity.getBlockStateAtPos(), entity.getBlockPos());
+		//delete old lightBlock
+		lightBlocks.updateLightBlocks();
 	}
-
 }
