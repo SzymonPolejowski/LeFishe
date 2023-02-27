@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "lefishe",
   "version": "${version}",
+  "accessWidener" : "lefishe.accesswidener",
 
   "name": "Le Fishe",
   "description": "This mode expands fishing and aquaculture in Minecraft.",
