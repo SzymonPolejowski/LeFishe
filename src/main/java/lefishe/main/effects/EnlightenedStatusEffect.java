@@ -23,7 +23,7 @@ public class EnlightenedStatusEffect extends StatusEffect {
 			return false;
 		}
 		//update every 3 ticks
-		return duration % 3 == 0;
+		return duration % 40 == 0;
 	}
 	@Override
 	public void applyUpdateEffect(LivingEntity entity, int amplifier){
