@@ -13,7 +13,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public abstract class FisheItems {
-	//MAKE ITEM IDENTIFIERS
+	//CREATE ITEM IDENTIFIERS
 	public static final Item FISHE_LEFISHEAUCHOCOLAT = new LeFisheAuChocolatItem(new FabricItemSettings().
 			food(new FoodComponent.Builder().hunger(6).saturationModifier(0.6f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 120), 1f).build()));
 	public static final Item FISHE_PICKLEFISH = new PickleFishItem(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.2f).build()));
