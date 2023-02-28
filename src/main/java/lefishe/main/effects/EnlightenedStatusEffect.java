@@ -7,8 +7,6 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 
-//TODO: handle amplifiers
-
 public class EnlightenedStatusEffect extends StatusEffect {
 	private LightBlockQueue lightBlocks;
 	public EnlightenedStatusEffect() {
@@ -36,7 +34,11 @@ public class EnlightenedStatusEffect extends StatusEffect {
 			return;
 		}
 		//place lightning block
-		entity.getWorld().setBlockState(entity.getBlockPos(), Blocks.LIGHT.getDefaultState());
+		if (amplifier > 1){
+			entity.getWorld().setBlockState(entity.getBlockPos(), Blocks.LIGHT.getDefaultState());
+		} else {
+			entity.getWorld().setBlockState(entity.getBlockPos(), Blocks.LIGHT.getDefaultState().with(LightBlock.LEVEL_15, 9));
+		}
 		//make sure if lightBlocks exist
 		if (lightBlocks == null){
 			lightBlocks = new LightBlockQueue(entity.getWorld());
