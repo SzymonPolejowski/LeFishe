@@ -1,4 +1,4 @@
-package lefishe.main.tools.blockHolder;
+package lefishe.main.utils.blockHolder;
 
 import lefishe.main.leFisheMain;
 import net.minecraft.block.Block;

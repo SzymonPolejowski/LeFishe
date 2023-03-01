@@ -1,6 +1,6 @@
 package lefishe.main.effects;
 
-import lefishe.main.tools.blockHolder.LightBlockQueue;
+import lefishe.main.utils.blockHolder.LightBlockQueue;
 import net.minecraft.block.*;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffect;
