@@ -34,7 +34,7 @@ public class EnlightenedStatusEffect extends StatusEffect {
 			return;
 		}
 		//place lightning block
-		if (amplifier > 1){
+		if (amplifier > 0){
 			entity.getWorld().setBlockState(entity.getBlockPos(), Blocks.LIGHT.getDefaultState());
 		} else {
 			entity.getWorld().setBlockState(entity.getBlockPos(), Blocks.LIGHT.getDefaultState().with(LightBlock.LEVEL_15, 9));
