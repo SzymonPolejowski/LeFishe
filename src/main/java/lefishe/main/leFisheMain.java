@@ -1,5 +1,6 @@
 package lefishe.main;
 
+import lefishe.main.Potions.FisheBrewingRecipeRegistry;
 import lefishe.main.effects.FisheStatusEffects;
 import net.fabricmc.api.ModInitializer;
 import lefishe.main.items.FisheItems;
@@ -16,6 +17,7 @@ public class leFisheMain implements ModInitializer {
 		LOGGER.info("Initialising mod.");
 		FisheItems.registerItemsAndModelPredicates();
 		FisheStatusEffects.initializeEffects();
+		FisheBrewingRecipeRegistry.registerFishePotions();
 	}
 	
 }

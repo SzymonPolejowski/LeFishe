@@ -1,5 +1,6 @@
 package lefishe.main.items;
 
+import net.fabricmc.fabric.api.recipe.v1.ingredient.FabricIngredient;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -10,8 +11,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class PhottocudaItem extends Item {
-	
+public class PhottocudaItem extends Item implements FabricIngredient {
 	public PhottocudaItem(Settings settings) {
 		super(settings);
 	}
