@@ -11,7 +11,7 @@ public abstract class FisheGroup {
 	public static final ItemGroup FISHE_GROUP = FabricItemGroup.builder(new Identifier("lefishe", "general"))
 			.displayName(Text.literal("LeFishe"))
 			.icon(() -> new ItemStack(FisheItems.FISHE_LEFISHEAUCHOCOLAT))
-			.entries((enabledFeatures, entries, operatorEnabled) -> {
+			.entries((context, entries) -> {
 				entries.add(new ItemStack(FisheItems.FISHE_LEFISHEAUCHOCOLAT));
 				entries.add(new ItemStack(FisheItems.FISHE_PICKLEFISH));
 				entries.add(new ItemStack(FisheItems.FISHE_PRISMATICROD));
