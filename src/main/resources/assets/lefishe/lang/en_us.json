@@ -7,5 +7,15 @@
   "lefishe.prismatic_rod": "not yet implemented",
   "item.lefishe.prismatic_rod": "Prismatic Fishing Rod",
   "lefishe.phottocuda_fish": "A fish with a wave-corpuscular nature",
-  "item.lefishe.phottocuda_fish": "Phottocuda"
+  "item.lefishe.phottocuda_fish": "Phottocuda",
+  "item.minecraft.potion.effect.enlightening": "Potion of Enlightening",
+  "item.minecraft.potion.effect.enlightening_long": "Potion of Enlightening",
+  "item.minecraft.potion.effect.enlightening_strong": "Potion of Enlightening",
+  "item.minecraft.lingering_potion.effect.enlightening": "Lingering Potion of Enlightening",
+  "item.minecraft.lingering_potion.effect.enlightening_long": "Lingering Potion of Enlightening",
+  "item.minecraft.lingering_potion.effect.enlightening_strong": "Lingering Potion of Enlightening",
+  "item.minecraft.splash_potion.effect.enlightening": "Splash Potion of Enlightening",
+  "item.minecraft.splash_potion.effect.enlightening_long": "Splash Potion of Enlightening",
+  "item.minecraft.splash_potion.effect.enlightening_strong": "Splash Potion of Enlightening",
+  "effect.lefishe.enlightened": "Enlightened"
 }
