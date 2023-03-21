@@ -23,7 +23,7 @@
       "lefishe.main.leFisheMain"
     ],
     "fabric-datagen": [
-      "lefishe.main.fishingLootTable"
+      "lefishe.main.dataGen.fisheDataGeneration"
     ]
   },
   "mixins": [
