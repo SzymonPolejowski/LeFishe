@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "lefishe.main.leFisheMain"
+    ],
+    "fabric-datagen": [
+      "lefishe.main.fishingLootTable"
     ]
   },
   "mixins": [
