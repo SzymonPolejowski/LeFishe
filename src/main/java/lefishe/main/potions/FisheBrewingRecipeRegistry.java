@@ -1,4 +1,4 @@
-package lefishe.main.Potions;
+package lefishe.main.potions;
 
 import lefishe.main.items.FisheItems;
 import net.minecraft.item.Items;

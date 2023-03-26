@@ -1,4 +1,4 @@
-package lefishe.main.Potions;
+package lefishe.main.potions;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import lefishe.main.effects.FisheStatusEffects;
